@@ -1,0 +1,25 @@
+#!/bin/bash
+
+PROJECT_PATH="$(pwd)"
+
+for zad_num in 1 2 4 5
+do
+   if [ -d zad$zad_num ]
+   then
+      cd zad$zad_num/validate/
+      echo ""
+      echo "-=-=-=-=-=-=-= ZAD$zad_num =-=-=-=-=-=-=-"
+      echo ""
+      ./run_validator
+      cd $PROJECT_PATH
+   fi
+done
+
+
+echo ""
+echo "-=-=-=-=-=-=-= ZAD3 =-=-=-=-=-=-=-"
+echo ""
+
+cd $PROJECT_PATH
+cd zad3/poker
+make run
