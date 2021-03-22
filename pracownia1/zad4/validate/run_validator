@@ -1,0 +1,6 @@
+COMMAND="python3 validator.py zad4 ./optDist"
+echo "execute command:"
+echo "     $COMMAND"
+echo ""
+$COMMAND
+

@@ -1,0 +1,6 @@
+COMMAND="python3 validator.py zad2 ./run"
+echo "execute command:"
+echo "     $COMMAND"
+echo ""
+$COMMAND
+

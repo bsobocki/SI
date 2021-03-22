@@ -1,0 +1,10 @@
+poker: compile success
+poker: run
+
+number of games: 7800000
+
+blotkarz wins: 659249
+figurant wins: 7140751
+
+szanse blotkarza: 0.0845191
+szanse figurants: 0.915481
